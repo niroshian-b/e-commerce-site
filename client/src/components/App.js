@@ -1,0 +1,56 @@
+import React, { useState, useEffect } from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import styled from "styled-components";
+import GlobalStyles from "../GlobalStyles";
+
+import HomePage from "./HomePage/index";
+
+import Header from "./Header";
+
+import ShopPage from "./ShopPage";
+
+import Footer from "./Footer";
+
+import Cart from "./Cart";
+
+const App = () => {
+  const [bacon, setBacon] = useState(null);
+
+  useEffect(() => {
+    fetch("/bacon")
+      .then((res) => res.json())
+      .then((data) => setBacon(data));
+  }, []);
+
+  return (
+    <BrowserRouter>
+      <GlobalStyles />
+      <Wrapper>
+        <Header />
+        <Switch>
+          <Route exact path to="/">
+            <HomePage></HomePage>
+          </Route>
+        </Switch>
+        <Switch>
+          <Route
+            path={[
+              "/shop/categories/:category",
+              "/shop/companies/:companyId",
+              "/shop/bodylocation/:bodylocation",
+            ]}
+            component={ShopPage}
+          />
+          <Route path="/cart">
+            <Cart />
+          </Route>
+        </Switch>
+        {window.location.pathname !== "/cart" && <Footer />}
+      </Wrapper>
+    </BrowserRouter>
+  );
+};
+
+const Wrapper = styled.div``;
+
+export default App;
