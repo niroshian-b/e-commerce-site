@@ -71,6 +71,7 @@ const Medical = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 1px 1px 2px black;
   &:hover {
     transform: scale(0.95);
     color: white;
@@ -83,11 +84,13 @@ const Medical = styled.div`
     grid-row-end: 4;
   }
 `;
+
 const H4 = styled.h4`
   color: white;
   font-size: 20px;
   font-weight: 700;
 `;
+
 const Lifestyle = styled.figure`
   background-image: url(https://techandall.com/wp-content/uploads/2017/03/pexels-photo-129208-1.png);
   background-repeat: no-repeat;
@@ -102,6 +105,7 @@ const Lifestyle = styled.figure`
   grid-row-end: 3;
   transform: scale(1);
   transition: 0.3s ease-in-out;
+  text-shadow: 1px 1px 2px black;
 
   &:hover {
     transform: scale(0.95);
@@ -127,6 +131,7 @@ const Entertainment = styled.figure`
   grid-row-end: 6;
   transform: scale(1);
   transition: 0.3s ease-in-out;
+  text-shadow: 1px 1px 2px black;
   &:hover {
     transform: scale(0.95);
     color: white;
@@ -152,6 +157,7 @@ const Industrial = styled.figure`
   grid-row-end: 6;
   transform: scale(1);
   transition: 0.3s ease-in-out;
+  text-shadow: 1px 1px 2px black;
   &:hover {
     transform: scale(0.95);
     color: white;
@@ -177,6 +183,7 @@ const Pets = styled.figure`
   grid-row-end: 9;
   transform: scale(1);
   transition: 0.3s ease-in-out;
+  text-shadow: 1px 1px 2px black;
   &:hover {
     transform: scale(0.95);
     color: white;
@@ -199,9 +206,10 @@ const Gaming = styled.figure`
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 6;
-  grid-row-end: 8;
+  grid-row-end: 9;
   transform: scale(1);
   transition: 0.3s ease-in-out;
+  text-shadow: 1px 1px 2px black;
   &:hover {
     transform: scale(0.95);
     color: white;
@@ -216,6 +224,8 @@ const Gaming = styled.figure`
 `;
 const Fitness = styled.figure`
   background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2021%2F02%2F12%2FGettyImages-1146442094-2000.jpg&w=426&h=285&c=sc&poi=face&q=85);
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,11 +235,12 @@ const Fitness = styled.figure`
   grid-row-end: 9;
   transform: scale(1);
   transition: 0.3s ease-in-out;
+  text-shadow: 1px 1px 2px black;
 
   &:hover {
     transform: scale(0.95);
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 10px darkblue;
   }
   @media (max-width: 880px) {
     grid-column-start: 1;

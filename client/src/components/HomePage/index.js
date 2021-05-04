@@ -36,6 +36,7 @@ const CompanyName = styled.h1`
   color: var(--primary-color);
   text-align: center;
   vertical-align: middle;
+  text-shadow: 1px 1px 2px white;
   @media (max-width: 880px) {
     font-size: 40px;
     color: purple;
