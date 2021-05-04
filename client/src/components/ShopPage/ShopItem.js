@@ -54,7 +54,7 @@ const ShopItem = ({
   };
   return (
     <Wrapper>
-      <div onClick={() => pushToItemDetails()}>
+      <ItemLink onClick={() => pushToItemDetails()}>
         <ImageWrapper>
           <Img src={imageSrc} alt={name} />
         </ImageWrapper>
@@ -72,7 +72,7 @@ const ShopItem = ({
             <Stock>{numInStock} In Stock</Stock>
           </StockWrapper>
         )}
-      </div>
+      </ItemLink>
       <Button
         text="Add to Cart"
         size="small"
@@ -94,10 +94,13 @@ const Wrapper = styled.div`
   text-align: left;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  &:hover {
-  }
 `;
 
+const ItemLink = styled.div`
+  &:hover {
+    cursor: pointer;
+  }
+`;
 const ImageWrapper = styled.div`
   overflow: hidden;
   height: 200px;

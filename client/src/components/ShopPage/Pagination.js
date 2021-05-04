@@ -49,16 +49,14 @@ const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
       <Wrapper>
         <PageUl>
           {pageNumbers.map((number, index) => (
-            <PageLi key={number}>
-              <PageLink
-                onClick={() => {
-                  paginate(number);
-                }}
-                href="!#"
-              >
-                {number}
-              </PageLink>
-            </PageLi>
+            <PageLink
+              onClick={() => {
+                paginate(number);
+              }}
+              href="!#"
+            >
+              <PageLi key={number}>{number}</PageLi>
+            </PageLink>
           ))}
         </PageUl>
       </Wrapper>

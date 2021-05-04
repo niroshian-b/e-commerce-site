@@ -2,7 +2,7 @@
 
 We created an E-commerce website to display different types of wearable technology. Although users cannot currently purchase the products, it does simulate a purchase without the transaction information and updates stock quantities as well.
 
-The stack is React.Js, Redux, Node.Js, and styled-components.
+The stack is React.Js, Redux, Express, Node.Js.
 
 The node server should be RESTful and follow REST principles, at least to the extent we learned during the bootcamp.
 

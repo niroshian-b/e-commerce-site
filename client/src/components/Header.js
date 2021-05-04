@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <Wrapper>
       <Logo onClick={() => history.push("/")}>
-        <GiTechnoHeart />
+        <LogoImage /> Tech Ninja
       </Logo>
       <NavItems>
         <Button>Register</Button>
@@ -51,6 +51,10 @@ const Logo = styled.div`
   color: #fff;
   font-size: 30px;
   cursor: pointer;
+`;
+
+const LogoImage = styled(GiTechnoHeart)`
+  margin-right: 10px;
 `;
 
 const CartLogoWrapper = styled.span`
