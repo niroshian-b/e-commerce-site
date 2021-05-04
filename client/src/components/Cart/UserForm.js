@@ -108,7 +108,7 @@ const UserForm = () => {
         <InputContainer>
           <Label htmlFor="email">Email: </Label>
           <Input
-            type="text"
+            type="email"
             name="email"
             onChange={(ev) => handleChange(ev.target.value, ev.target.name)}
             required

@@ -2,6 +2,7 @@ const items = require("../../data/items.json");
 const orders = require("../../data/orders.json");
 
 const submitOrder = (req, res) => {
+  //Handle ordering the products from the database
   const {
     cart,
     firstName,

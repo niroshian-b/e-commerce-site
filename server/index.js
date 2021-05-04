@@ -32,6 +32,5 @@ express()
   .use("/order", orderRouter)
   .use("/companies", companyRouter)
   .use("/items", itemRouter)
-  .get("/bacon", (req, res) => res.status(200).json("🥓"))
   .get("*", (req, res) => res.status(404).json("Error, you took a wrong turn"))
   .listen(PORT, () => console.info(`Listening on port ${PORT}`));

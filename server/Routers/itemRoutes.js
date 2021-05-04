@@ -10,6 +10,7 @@ const {
   getItemsByCompanyId,
 } = require("./handlers/itemHandlers");
 
+//Router for retrieving items in a variety of ways
 router.get("/", getAllItems);
 router.get("/item/:id", getItemById);
 router.get("/categories/:category", getItemsByCategory);
