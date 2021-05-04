@@ -122,7 +122,7 @@ const NamePriceWrapper = styled.div`
 const Name = styled.div`
   font-size: 20px;
   line-height: 20px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   overflow: hidden;
   color: #6c757d;
 `;
