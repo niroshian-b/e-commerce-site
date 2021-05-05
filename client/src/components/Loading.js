@@ -12,7 +12,7 @@ const Loading = () => {
 };
 
 const Wrapper = styled.div`
-  height: 69vh;
+  min-height: 69vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

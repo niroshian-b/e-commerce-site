@@ -20,7 +20,7 @@ const Success = () => {
 };
 
 const Wrapper = styled.div`
-  height: calc(100vh - 180px);
+  min-height: calc(100vh - 180px);
   text-align: center;
 `;
 

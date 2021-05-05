@@ -156,11 +156,11 @@ const AddressContainer = styled(InputContainer)``;
 
 const Button = styled.button`
   margin: 15px;
-  height: 70px;
+  min-height: 70px;
   width: calc(100% / 3 - 15px);
   position: fixed;
   bottom: 0;
-  font-size: 30px;
+  font-size: 1.875rem;
   right: -7.5px;
   background-color: var(--tertiary-color);
   color: var(--secondary-color);

@@ -52,7 +52,7 @@ export default Item;
 const Wrapper = styled.li`
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  min-height: 100px;
   margin: 5px 20px;
   padding: 10px;
   border: 1px solid lightgray;
@@ -72,19 +72,19 @@ const RemoveButton = styled(FiX)`
   border: none;
   background-color: transparent;
   width: 25px;
-  height: 25px;
+  min-height: 25px;
   color: gray;
   margin: 5px 0;
 `;
 
 const Img = styled.img`
-  height: 75px;
+  min-height: 75px;
   width: 75px;
   vertical-align: middle;
 `;
 
 const ItemName = styled.p`
-  font-size: 20px;
+  font-size: 1.25rem;
   max-width: 340px;
   @media (max-width: 425px) {
     font-size: 12px;

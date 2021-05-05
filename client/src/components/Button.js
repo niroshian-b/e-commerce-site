@@ -33,7 +33,7 @@ const LargeButton = styled.button`
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1.5rem;
   width: 100%;
   cursor: pointer;
 
@@ -45,13 +45,13 @@ const LargeButton = styled.button`
 
 const ItemDetailsButton = styled(LargeButton)`
   padding: 8px 10px;
-  font-size: 15px;
+  font-size: 1rem;
   width: 120px;
   margin: 10px;
 `;
 
 const SmallButton = styled(LargeButton)`
   padding: 8px 10px;
-  font-size: 15px;
+  font-size: 1rem;
   width: 100%;
 `;

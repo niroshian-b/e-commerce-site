@@ -51,19 +51,19 @@ const ErrorWrapper = styled.div`
 `;
 
 const Img = styled.img`
-  height: auto;
+  min-height: auto;
   width: 110px;
 `;
 
 const Title = styled.h1`
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: bold;
   text-align: center;
   margin: 25px 0 0 0;
 `;
 
 const Message = styled.div`
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   margin: 25px 0 25px 0;
   line-height: 2;

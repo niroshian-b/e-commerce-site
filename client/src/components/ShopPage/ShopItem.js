@@ -103,7 +103,7 @@ const ItemLink = styled.div`
 `;
 const ImageWrapper = styled.div`
   overflow: hidden;
-  height: 200px;
+  min-height: 200px;
   display: flex;
   justify-content: center;
 `;
@@ -116,11 +116,11 @@ const Img = styled.img`
 const NamePriceWrapper = styled.div`
   padding-top: 20px;
   display: block;
-  height: 130px;
+  min-height: 130px;
 `;
 
 const Name = styled.div`
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 20px;
   padding-bottom: 10px;
   overflow: hidden;
@@ -129,7 +129,7 @@ const Name = styled.div`
 
 const Price = styled.div`
   font-weight: bolder;
-  font-size: 28px;
+  font-size: 1.75rem;
 `;
 
 const StockWrapper = styled.div`
@@ -141,6 +141,6 @@ const StockWrapper = styled.div`
 
 const Stock = styled.span`
   font-weight: 900;
-  font-size: 17px;
+  font-size: 1rem;
   margin: 0 0 0 28px;
 `;

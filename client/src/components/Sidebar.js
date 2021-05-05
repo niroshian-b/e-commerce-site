@@ -135,7 +135,7 @@ const Sidebar = () => {
 const Wrapper = styled.div`
   margin: 10px 20px 0 20px;
   width: 200px;
-  height: 100vh;
+  min-height: 100vh;
 `;
 
 const Select = styled.select`
@@ -144,7 +144,7 @@ const Select = styled.select`
   box-sizing: border-box;
   margin: 0;
   border-radius: 4px;
-  height: 30px;
+  min-height: 30px;
 `;
 
 const Form = styled.form`
@@ -166,7 +166,7 @@ const Categories = styled.div`
 const CategoryLink = styled(NavLink)`
   text-decoration: none;
   line-height: 1.9;
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-right: auto;
   &:hover {
     background: var(--tertiary-color);

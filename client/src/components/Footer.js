@@ -27,7 +27,7 @@ const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   background: var(--primary-color);
-  height: 130px;
+  min-height: 130px;
   width: 100%;
   padding: 20px;
   position: relative;
@@ -37,14 +37,14 @@ const Wrapper = styled.div`
 `;
 
 const ContactUs = styled.p`
-  font-size: 25px;
+  font-size: 1.5rem;
   color: var(--secondary-color);
   padding-bottom: 10px;
 `;
 
 const Address = styled.div`
   color: var(--secondary-color);
-  font-size: 15px;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   flex-direction: column;

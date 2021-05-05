@@ -35,7 +35,7 @@ const Header = () => {
 };
 
 const Wrapper = styled.div`
-  height: 50px;
+  min-height: 50px;
   background: var(--primary-color);
   display: flex;
   justify-content: space-between;
@@ -49,7 +49,7 @@ const Logo = styled.div`
   display: flex;
   align-items: center;
   color: #fff;
-  font-size: 30px;
+  font-size: 2rem;
   cursor: pointer;
 `;
 
@@ -67,14 +67,14 @@ const CartQuantity = styled.div`
   position: absolute;
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  height: 15px;
+  min-height: 15px;
   width: 15px;
   border-radius: 50%;
   text-align: center;
   vertical-align: middle;
   top: 30px;
   right: 35px;
-  font-size: 12px;
+  font-size: 0.75rem;
 `;
 const Button = styled.button`
   background: var(--primary-color);
@@ -83,7 +83,7 @@ const Button = styled.button`
   border: none;
   cursor: pointer;
   border-bottom: 2px solid var(--primary-color);
-  font-size: 17px;
+  font-size: 1rem;
   &:hover {
     border-bottom: 2px solid var(--secondary-color);
     transition: 0.3s;
@@ -92,7 +92,7 @@ const Button = styled.button`
 
 const NavItems = styled.div`
   color: var(--secondary-color);
-  font-size: 22px;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;

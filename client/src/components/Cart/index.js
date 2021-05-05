@@ -69,7 +69,7 @@ const Total = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  min-height: 100px;
   width: calc(100% / 3 * 2);
   position: fixed;
   bottom: 0;
@@ -79,14 +79,14 @@ const Total = styled.div`
 
 const TotalInfoSpot = styled.div`
   //adds white space for TotalInfo to fit at the end of the item list
-  height: 100px;
+  min-height: 100px;
 `;
 
 const ClearBtn = styled.button`
   margin-left: 50px;
-  height: 50px;
+  min-height: 50px;
   width: 120px;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: 3px solid var(--secondary-color);
@@ -99,9 +99,9 @@ const ClearBtn = styled.button`
 
   @media (max-width: 425px) {
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 1rem;
     width: 100px;
-    height: 40px;
+    min-height: 40px;
   }
 `;
 
@@ -109,18 +109,18 @@ const TotalInfo = styled.div`
   display: flex;
   flex-direction: column;
   color: var(--secondary-color);
-  font-size: 25px;
+  font-size: 1.5rem;
   line-height: 1.5;
   padding-right: 50px;
 
   @media (max-width: 425px) {
-    font-size: 15px;
+    font-size: 1rem;
     padding-right: 20px;
   }
 `;
 
 const FormWrapper = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   width: calc(100% / 3);
   border-left: solid lightgray 1px;
   padding: 10px;

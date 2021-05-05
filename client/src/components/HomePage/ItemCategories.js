@@ -42,9 +42,9 @@ const Wrapper = styled.div``;
 const CategoryTitle = styled.h2`
   text-align: center;
   margin: 20px;
-  font-size: 40px;
+  font-size: 2.5rem;
   @media (max-width: 880px) {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 `;
 const CategoryWrapper = styled.div`
@@ -87,7 +87,7 @@ const Medical = styled.div`
 
 const H4 = styled.h4`
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 `;
 

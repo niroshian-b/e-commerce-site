@@ -86,7 +86,7 @@ const PageLi = styled.li`
 
 const PageLink = styled(Link)`
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1.5rem;
   color: white;
 
   &::hover,

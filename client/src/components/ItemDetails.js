@@ -84,20 +84,22 @@ const ItemDetails = () => {
 
 const Wrapper = styled.div`
   display: flex;
-  margin-top: 50px;
-  height: 100vh;
-  flex: 100%;
+  min-height: calc(100vh - 280px);
+  justify-content: center;
+  margin: 50px 0;
   @media (max-width: 880px) {
     flex-direction: column;
   } ;
 `;
 const ItemImageWrapper = styled.div`
   border: 2px solid lightgrey;
+  border-radius: 15px;
   flex: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px;
+  padding: 20px;
   @media (max-width: 880px) {
   }
 `;
@@ -110,38 +112,42 @@ const ItemDetailsWrapper = styled.div`
 `;
 const ItemImage = styled.img`
   width: auto;
-  height: 100%;
+  min-height: 100%;
   @media (max-width: 880px) {
-    height: auto;
+    min-height: auto;
   }
 `;
 const ItemName = styled.h1`
   text-align: center;
-  font-size: 25px;
+  font-size: 1.5rem;
   margin: 5px;
 
   width: 500px;
   @media (max-width: 880px) {
-    font-size: 13px;
+    font-size: 0.75rem;
   }
 `;
-const Category = styled.h3`
+
+const Tag = styled.h3`
   margin: 0px 10px;
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
   transition: 0.3s ease-in-out;
 `;
-const BodyLocation = styled.h3`
-  margin: 0px 10px;
-  transition: 0.3s ease-in-out;
-`;
-const CompanyName = styled.h3`
-  margin: 0px 10px;
-  transition: 0.3s ease-in-out;
-`;
+
+const Category = styled(Tag)``;
+
+const BodyLocation = styled(Tag)``;
+
+const CompanyName = styled(Tag)``;
+
 const Filters = styled.div`
   display: flex;
   margin: 5px;
   @media (max-width: 880px) {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
 `;
 const QuantitySelectorWrapper = styled.div`

@@ -16,7 +16,7 @@ const Wrapper = styled.div``;
 const BackgroundImage = styled.div`
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   position: relative;
   display: flex;
@@ -25,7 +25,7 @@ const BackgroundImage = styled.div`
   vertical-align: baseline;
   background-image: url(https://www.globalblue.com/destinations/uk/london/article830241.ece/BINARY/tech-gadgets-gift-guide-2018-teaser-01b.jpg);
   @media (max-width: 880px) {
-    height: 25vh;
+    min-height: 25vh;
   } ;
 `;
 
@@ -38,7 +38,7 @@ const CompanyName = styled.h1`
   vertical-align: middle;
   text-shadow: 1px 1px 2px white;
   @media (max-width: 880px) {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: purple;
   }
 `;
