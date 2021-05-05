@@ -29,3 +29,9 @@ https://user-images.githubusercontent.com/44169593/117141394-7bd46880-ad7c-11eb-
 ## Clear Cart
 
 ![ClearCartDemo](./assets/ClearCart.gif)
+
+## Features to Implement
+  - [ ] Should add whimsical animations
+  - [ ] Make the item filters run concurrently
+  - [ ] Add a link back to the shop page from the item details page and cart
+  - [ ] User Account implementation
