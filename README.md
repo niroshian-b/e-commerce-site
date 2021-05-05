@@ -15,3 +15,17 @@ Created in collaboration with
 Under the supervision of
 
 - Vicky Wang, @vickywvng - https://github.com/vickywvng
+
+![TechNinjaDemo.mp4](./assets/TechNinja.mp4)
+
+## Landing Page
+
+![LandingPage](./assets/LandingPage.gif)
+
+## Add To Cart
+
+![AddtoCartDemo](./assets/AddToCart.gif)
+
+## Clear Cart
+
+![ClearCartDemo](./assets/ClearCart.gif)
