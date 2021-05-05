@@ -16,7 +16,9 @@ Under the supervision of
 
 - Vicky Wang, @vickywvng - https://github.com/vickywvng
 
-![TechNinjaDemo.mp4](./assets/TechNinja.mp4)
+
+
+![TechNinjaDemo.mp4](https://user-images.githubusercontent.com/44169593/117141255-521b4180-ad7c-11eb-833e-45ab54a09d8a.mp4)
 
 ## Landing Page
 
