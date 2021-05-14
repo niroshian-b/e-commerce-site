@@ -6,6 +6,14 @@ The stack is React.Js, Redux, Express, Node.Js.
 
 The node server should be RESTful and follow REST principles, at least to the extent we learned during the bootcamp.
 
+Created in collaboration with
+
+Donitha Michael, @DonithaM - https://github.com/DonithaM
+Aude Hébert, @Audehd - https://github.com/Audehd
+Vahan, vahan-kali, @vahan-kali- https://github.com/vahan-kali
+Under the supervision of
+
+Vicky Wang, @vickywvng - https://github.com/vickywvng
 
 https://user-images.githubusercontent.com/44169593/117141394-7bd46880-ad7c-11eb-9d63-7c228e66f505.mp4
 
